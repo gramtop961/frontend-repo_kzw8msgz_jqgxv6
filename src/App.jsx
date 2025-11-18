@@ -5,23 +5,14 @@ function App() {
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(59,130,246,0.05),transparent_50%)]"></div>
 
       <div className="relative min-h-screen flex items-center justify-center p-8">
-        <div className="max-w-2xl w-full">
-          {/* Header with Flames icon */}
+        <div className="max-w-3xl w-full">
+          {/* Header */}
           <div className="text-center mb-12">
-            <div className="inline-flex items-center justify-center mb-6">
-              <img
-                src="/flame-icon.svg"
-                alt="Flames"
-                className="w-24 h-24 drop-shadow-[0_0_25px_rgba(59,130,246,0.5)]"
-              />
-            </div>
-
-            <h1 className="text-5xl font-bold text-white mb-4 tracking-tight">
-              Flames Blue
+            <h1 className="text-5xl md:text-6xl font-extrabold text-white mb-4 tracking-tight drop-shadow-[0_0_25px_rgba(59,130,246,0.35)]">
+              Chi Paradox by PROCOM'26 Leaderboard
             </h1>
-
-            <p className="text-xl text-blue-200 mb-6">
-              Build applications through conversation
+            <p className="text-blue-200/80 text-base md:text-lg">
+              Track rankings and celebrate top performers in real-time
             </p>
           </div>
 
